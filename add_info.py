@@ -4,6 +4,9 @@ import pandas as pd
 
 
 class add_info:
+    """
+    Extract info from sample info file.
+    """
     def __init__(self, files, kwords=None, SID_name=None, PID_name=None):
         self.info_file = files
         self.which = kwords
